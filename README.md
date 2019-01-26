@@ -10,3 +10,11 @@ templates/template.html - Basic HTML page which shows the number of requests rec
 webServer.py - A simple Flask web app server which displays the counter for the requests received in the front-end.
 
 tornadoServer.py - Tried Tornado framework to create the above Flask server.
+
+
+## Run Instructions - 
+python webServer.py
+
+python handleRequests.py 10 http://127.0.0.1:8888/
+
+From Browser go to http://127.0.0.1:8888/ to check the current counter of requests.
